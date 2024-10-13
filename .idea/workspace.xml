@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="25315775-0ff3-41f7-b75f-6fa0c817ac0e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/entity/PatientEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/entity/PatientEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/service/PatientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/service/PatientServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/controller/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/controller/PatientController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/ICET/ProjectDevelopment/Hospital-Management-System-0",
     "onboarding.tips.debug.path": "F:/ICET/ProjectDevelopment/Hospital-Management-System-0/src/main/java/edu/icet/Main.java"
   }
 }]]></component>
