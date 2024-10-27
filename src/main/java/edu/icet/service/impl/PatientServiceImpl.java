@@ -1,10 +1,10 @@
-package edu.icet.service;
+package edu.icet.service.impl;
 
 import edu.icet.dto.Patient;
 import edu.icet.entity.PatientEntity;
 import edu.icet.repository.PatientRepository;
+import edu.icet.service.PatientService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 import org.modelmapper.ModelMapper;
 import java.util.ArrayList;
@@ -12,7 +12,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class PatientServiceImpl implements PatientService{
+public class PatientServiceImpl implements PatientService {
 
 
 
