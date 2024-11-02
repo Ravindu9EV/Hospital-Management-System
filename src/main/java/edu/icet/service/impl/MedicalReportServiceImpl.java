@@ -1,6 +1,6 @@
 package edu.icet.service.impl;
 
-import edu.icet.dto.Appoinment;
+import edu.icet.dto.Appointment;
 import edu.icet.dto.MedicalReport;
 import edu.icet.entity.MedicalReportEntity;
 import edu.icet.repository.MedicalReportRepository;
@@ -24,6 +24,7 @@ public class MedicalReportServiceImpl implements MedicalReportService {
 
     @Override
     public List<MedicalReport> getMedicalReports() {
+        return List.of();
 
     }
 
@@ -34,7 +35,7 @@ public class MedicalReportServiceImpl implements MedicalReportService {
     }
 
     @Override
-    public List<Appoinment> getAll() {
+    public List<Appointment> getAll() {
         return List.of();
     }
 
