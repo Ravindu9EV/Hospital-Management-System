@@ -16,8 +16,9 @@ public class AppointmentController {
     final AppointmentService service;
 
     @PostMapping("/add-appointment")
-    @ResponseStatus(HttpStatus.CREATED)
+    @ResponseStatus(HttpStatus.OK)
     public void addAppoinment(@RequestBody Appointment appoinment){
+        System.out.println(appoinment);
         service.addAppoinment(appoinment);
     }
     @PutMapping("/update-appoinment")
