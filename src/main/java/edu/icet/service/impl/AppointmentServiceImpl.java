@@ -17,13 +17,33 @@ public class AppointmentServiceImpl implements AppointmentService {
     final AppointmnetRepository repository;
     final ModelMapper mapper;
     @Override
-    public void addAppoinment(Appointment appoinment) {
+    public boolean addAppoinment(Appointment appoinment) {
         log.info(appoinment.toString());
-        repository.save(mapper.map(appoinment, AppointmentEntity.class));
+        if(appoinment.getId()==null||
+        appoinment.getQr()==null||
+        appoinment.getAdminId()==null||
+        appoinment.getDateTime()==null||
+        appoinment.getPatientId()==null){
+            return false;
+        }
+        try{
+
+            AppointmentEntity appointmentEntity=mapper.map(appoinment, AppointmentEntity.class);
+            repository.save(appointmentEntity);
+
+        }catch (NullPointerException e){
+            log.info(e.toString());
+            return false;
+        }
+        return true;
+
     }
 
     @Override
     public boolean deleteById(Integer id) {
+        if(id==null||id.equals("")){
+            return false;
+        }
         repository.deleteById(id);
         return true;
     }
