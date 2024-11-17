@@ -41,7 +41,7 @@ public class AppointmentServiceImpl implements AppointmentService {
 
     @Override
     public boolean deleteById(Integer id) {
-        if(id==null||id.equals("")){
+        if(id==null){
             return false;
         }
         repository.deleteById(id);
